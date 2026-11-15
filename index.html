@@ -1,45 +1,47 @@
-<!-- Name: M. Tayyab Nisar -->
-<!-- Roll No: 26i-3218 -->
-<!-- Section: SE-E -->
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Chai Corner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Corner | Home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <header class="site-header">
+        <h1 class="logo">Chai Corner</h1>
+        <nav>
+            <a class="active" href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order Online</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
 
-   <h1>Chai Corner</h1>
-   <p>Welcome to our cafe!</p>
- <img src="images/tea-cup.svg" width="150">
-   <h2>Our Menu</h2>
-<img src="https://foodpanda.dhmedia.io/image/fd-pk/LH/u23m-listing.jpeg?width=480&height=360&quality=45" alt="Chai" width="300">
+    <main>
+        <section class="hero">
+            <img class="hero-cup" src="images/tea-cup.svg" alt="Illustration of a cup of tea">
+            <div>
+                <p class="eyebrow">A warm welcome awaits</p>
+                <h2>Welcome to Chai Corner!</h2>
+                <p class="hero-text">A simple place to enjoy tea, coffee and paratha.</p>
+                <a class="button-link" href="menu.html">Explore Our Menu</a>
+            </div>
+        </section>
 
- <table>
-      <tr>
-           <th>Item</th>
-           <th>Price</th>
-    </tr>
+        <section class="section">
+            <h2>Our Menu</h2>
+            <p>Take a look at some of the items available at Chai Corner.</p>
+            <div class="menu-preview">
+                <article class="menu-card"><h3>Tea</h3><p>Rs. 80</p></article>
+                <article class="menu-card"><h3>Coffee</h3><p>Rs. 150</p></article>
+                <article class="menu-card"><h3>Paratha</h3><p>Rs. 100</p></article>
+            </div>
+            <a class="button-link" href="order.html">Order Online</a>
+        </section>
+    </main>
 
-      <tr>
-        <td>Tea</td>
-         <td>Rs. 80</td>
-        </tr>
-
-        <tr>
-            <td>Coffee</td>
-            <td>Rs. 150</td>
-        </tr>
-
-        <tr>
-            <td>Paratha</td>
-            <td>Rs. 100</td>
-        </tr>
-    </table>
-
-    <br>
-
-    <button onclick="order()">Order</button>
-
+    <footer><p>&copy; 2026 Chai Corner. All rights reserved.</p></footer>
 </body>
 </html>
