@@ -1,0 +1,33 @@
+/* Name: M. Tayyab Nisar */
+/* Roll No: 26i-3218 */
+/* Section: SE-E */
+
+body {
+    background-color: grey;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+table {
+    margin: auto;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    padding: 8px;
+}
